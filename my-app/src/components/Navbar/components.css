@@ -1,11 +1,12 @@
 
-div {
+div.navbarMain {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    
     height: 100px;
+
+    
 }
 div.navbar{
     display: flex;

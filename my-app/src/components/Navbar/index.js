@@ -2,7 +2,7 @@ import "./components.css";
 import dev from "../../icon/dev.png";
 const Navbar = () => {
   return (
-    <div>
+    <div className="navbarMain">
       <div className="navbar">
         <div className="logo">
           <img src={dev} alt="Dev"></img>

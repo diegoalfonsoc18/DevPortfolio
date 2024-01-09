@@ -1,0 +1,58 @@
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    height: 100px;
+}
+div.navbar{
+    display: flex;
+    width: 90%;
+    justify-content: space-between
+}
+div.logo {
+    
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+div.textNav {
+   
+    display: flex;
+    width: 100px;
+    height: 80px;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+p.name {
+    color: #FF2B51;
+   
+text-align: right;
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 2.2px;
+margin: 0;
+width: 100%;
+}
+
+p.lastname {
+    color: #FF2B51;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.2px;
+    margin: 0;
+    width: 100%;
+}

@@ -15,9 +15,9 @@ const Body = () => {
         </div>
         <div className="menu">
           <div className="wrapperMenu">
-            <a href="#">ABOUT</a>
-            <a href="#">PROJECTS</a>
-            <a href="#">CONTACT</a>
+            <a href="#about">ABOUT</a>
+            <a href="#projects">PROJECTS</a>
+            <a href="#contact">CONTACT</a>
           </div>
         </div>
       </div>

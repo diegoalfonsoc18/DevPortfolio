@@ -18,9 +18,9 @@ const Body = () => {
           </div>
         </div>
       </div>
-      {/* <div className="footerMain">
+      <div className="footerMain">
         <div className="footerBody"></div>
-      </div> */}
+      </div>
     </div>
   );
 };

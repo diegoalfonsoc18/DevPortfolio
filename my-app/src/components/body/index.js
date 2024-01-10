@@ -11,9 +11,11 @@ const Body = () => {
           </div>
         </div>
         <div className="menu">
-          <a href="#">ABOUT</a>
-          <a href="#">PROJECTS</a>
-          <a href="#">CONTACT</a>
+          <div className="wrapperMenu">
+            <a href="#">ABOUT</a>
+            <a href="#">PROJECTS</a>
+            <a href="#">CONTACT</a>
+          </div>
         </div>
       </div>
       {/* <div className="footerMain">

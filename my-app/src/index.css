@@ -1,5 +1,15 @@
+:root {
+  --red :#FF2B51,
+  --redHot: #e40037,
+  --white: #fff,
+  --black: #000,
+
+
+}
+
 body {
   margin: 0;
   background-color: #000;
   box-sizing: border-box;
+  font-family: poppins;
 }

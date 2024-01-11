@@ -1,5 +1,5 @@
 
-div.navbarMain {
+.navbarMain {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,12 +8,12 @@ div.navbarMain {
 
     
 }
-div.navbar{
+.navbar{
     display: flex;
     width: 90%;
     justify-content: space-between
 }
-div.logo {
+.logo {
     
     width: 50px;
     height: 50px;
@@ -23,7 +23,7 @@ img {
     width: 100%;
     height: 100%;
 }
-div.textNav {
+.textNav {
    
     display: flex;
     width: 100px;
@@ -56,4 +56,17 @@ p.lastname {
     letter-spacing: 2.2px;
     margin: 0;
     width: 100%;
+}
+
+@media (min-width: 740px){
+    .navbar {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1440px){
+    .navbar {
+        width: 60%;
+
+    }
 }

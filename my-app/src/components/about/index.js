@@ -25,6 +25,17 @@ const About = () => {
               <img src={dev} alt="dev logo"></img>
             </div>
           </div>
+          <div className="wrapperCard">
+            <div className="textDev">
+              <span>FrontEnd Developer</span>
+              <a href="#projects" target="_blank">
+                Projects
+              </a>
+            </div>
+            <div className="iconDev">
+              <img src={dev} alt="dev logo"></img>
+            </div>
+          </div>
         </div>
       </div>
     </article>

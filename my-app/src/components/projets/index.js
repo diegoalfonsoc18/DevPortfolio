@@ -41,39 +41,41 @@ const Projects = () => {
 
   return (
     <section>
-      <div className="titleProjects">
-        <h2 id="projects">Projects</h2>
-      </div>
-      <div className="projects">
-        <img
-          className="arrow"
-          src={arrowL}
-          alt="arrow"
-          onClick={handlePrevSlide}
-        ></img>
-        {projectsImg.map((imgs, index) => (
-          <div
-            key={index}
-            className="wrapperProjects"
-            style={{ display: index === currentSlide ? "block" : "none" }}
-          >
-            <img
-              className="imgProjects"
-              key={imgs.name}
-              src={imgs.img}
-              alt="landing One"
-            ></img>
-            <div className="TitleProjects">
-              <span>{imgs.name}</span>
+      <div className="sectionWrapper">
+        <div className="titleProjects">
+          <h2 id="projects">Projects</h2>
+        </div>
+        <div className="projects">
+          <img
+            className="arrow"
+            src={arrowL}
+            alt="arrow"
+            onClick={handlePrevSlide}
+          ></img>
+          {projectsImg.map((imgs, index) => (
+            <div
+              key={index}
+              className="wrapperProjects"
+              style={{ display: index === currentSlide ? "block" : "none" }}
+            >
+              <img
+                className="imgProjects"
+                key={imgs.name}
+                src={imgs.img}
+                alt="landing One"
+              ></img>
+              <div className="TitleProjects">
+                <span>{imgs.name}</span>
+              </div>
             </div>
-          </div>
-        ))}
-        <img
-          className="arrow"
-          src={arrowR}
-          alt="arrow"
-          onClick={handleNextSlide}
-        ></img>
+          ))}
+          <img
+            className="arrow"
+            src={arrowR}
+            alt="arrow"
+            onClick={handleNextSlide}
+          ></img>
+        </div>
       </div>
     </section>
   );

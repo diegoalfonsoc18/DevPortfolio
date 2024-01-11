@@ -8,6 +8,15 @@ section {
 
 }
 
+.sectionWrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
 .titleProjects {
     display: flex;
 
@@ -26,7 +35,7 @@ section {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    background-color: antiquewhite;
+   
     overflow: hidden;
     width: 100%;
     height: 100%;
@@ -74,4 +83,28 @@ section {
     width: 40px;
     height: 40px;
     margin: 15px;
+}
+
+@media (min-width: 768px) {
+    .sectionWrapper {
+        width: 80%;
+    }
+    .projects {
+        width: 90%;
+    }
+.wrapperProjects {
+    width: 22rem;
+    height: 30em;
+}
+    
+
+}
+
+@media (min-width: 1440px){
+    .sectionWrapper {
+        width: 60%;
+    }
+    .projects {
+        width: 70%;
+    }
 }

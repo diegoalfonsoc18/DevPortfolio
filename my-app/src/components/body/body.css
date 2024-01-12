@@ -8,7 +8,8 @@ div.body {
 }  
 
 .bodyWrapper {
-    width: 100%
+    width: 100%;
+    height: auto;
 }
 
 .wrapperMain {
@@ -16,7 +17,7 @@ div.body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 70%;
+    height: 78%;
     flex-direction: row;
 
 }

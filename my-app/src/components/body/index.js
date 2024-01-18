@@ -2,6 +2,7 @@ import "./body.css";
 import linkedin from "../../icon/linkedin.png";
 import github from "../../icon/github.png";
 import discord from "../../icon/discord.png";
+import imgDev from "../../img/DiegoDevs.png";
 
 const Body = () => {
   return (
@@ -11,7 +12,9 @@ const Body = () => {
           <div className="menu"></div>
           <div className="wrapper">
             <div className="imageCircle">
-              <div className="circle"></div>
+              <div className="imgDevContainer">
+                <img className="imgDev" src={imgDev} alt="diego"></img>
+              </div>
             </div>
           </div>
           <div className="menu">

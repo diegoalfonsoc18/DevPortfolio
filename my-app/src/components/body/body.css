@@ -35,20 +35,41 @@ div.body {
 }
 
 div.imageCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: auto;
-    height: px;
     flex-shrink: 0;  
 
 
 }  
 
+.imgDevContainer {
+    /* position: absolute; */
+    width: auto;
+    height: auto;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.imgDev {
+    width: 26rem;
+    height: 20rem;
+    
+}
+
 div.circle {
+
     border-radius: 50%;
-    width: 250px;
+    width: 300px;
     height: 250px;
-     border: 12px solid #E40037;
-     box-shadow: 0 0 20px 10px rgba(188, 34, 34, 0.5), inset 0 0 20px 10px rgba(226, 18, 18, 0.5);
+    border: 12px solid #E40037;
+    box-shadow: 0 0 20px 10px rgba(188, 34, 34, 0.5), inset 0 0 20px 10px rgba(226, 18, 18, 0.5);
 }
 
 .menu {
@@ -64,7 +85,6 @@ div.circle {
 }
 
 .wrapperMenu {
-   
     display: flex;
     flex-direction: column;
     justify-content: space-around;
